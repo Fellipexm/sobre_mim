@@ -24,11 +24,13 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
+  
 }
 
 #container {
@@ -67,7 +69,7 @@ body * {
   position: absolute;
   z-index: 1;
   top: 137px;
-  left: 180px;
+  left: 189px;
 
 }
 
@@ -154,9 +156,19 @@ ul li a:hover {
 #social-links a:hover {
   background: var(--highlight-color);
 }
-
+ 
 footer {
   text-align: center;
   padding: 24px 0;
   font-size: 14px;
+}
+
+@media (min-width: 780px) {
+    :root {
+      --bg-url: url(assets/bg-desktop.jpg);
+    }
+    
+    .ligth {
+      --bg-url: url(assets/bg-mobile-light.jpg);
+    }
 }
