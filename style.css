@@ -70,7 +70,7 @@ body * {
   z-index: 1;
   top: 137px;
   left: 189px;
-  animation: slide-back 1.0s;
+  animation: slide-back 1.0s forwards;
 
 }
 
