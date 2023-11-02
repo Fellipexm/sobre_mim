@@ -180,11 +180,11 @@ footer {
 
 @keyframes slide-in {
    from {
-    left: 190px;
+    left: 180px;
    }
 
   to {
-    left: 81%;
+    left: 242px;
   }
 }
 
