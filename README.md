@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desenvolvi esse projeto para complementar meu portfólio virtual, que está <a href="https://sobre-mim1.vercel.app/">aqui</a>
+Desenvolvi esse projeto para complementar meu portfólio virtual, que está <a href="https://sobre-mim1.vercel.app/">aqui.</a>
 
 
 
