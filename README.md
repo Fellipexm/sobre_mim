@@ -1,7 +1,7 @@
 <h1 align="center"> Meu portfólio</h1>
 
 <p align="center">
- Este é o meu portfólio, onde você encontra os acessos ao meu GitHub, LinkedIn e Instagram
+Esta é a página sobre mim, onde coloco minhas características e habilidades.
 </p>
 
 <p align="center">
@@ -11,14 +11,12 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src=".github/rocket.PNG">
-</p>
+
 
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/rocket1.PNG" width="100%">
+  <img alt="calendario da copa" src=".github/.PNG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,11 +30,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desenvolvi meu portfólio durante o curso Discover da Rocketseat, criando uma representação visual e interativa do meu trabalho, habilidades e conquistas
+Desenvolvi esse projeto para complementar meu portfólio virtual, que está <a href="https://fellipexm.github.io/Meu-portfolio/">aqui</a>
 
-## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
