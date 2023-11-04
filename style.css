@@ -24,7 +24,7 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 165vh;
+  height: 170vh;
 }
 
 body * {

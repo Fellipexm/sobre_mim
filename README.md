@@ -15,9 +15,7 @@ Esta é a página sobre mim, onde coloco minhas características e habilidades.
 
 <br>
 
-<p align="center">
-  <img alt="calendario da copa" src=".github/.PNG" width="100%">
-</p>
+
 
 ## 🚀 Tecnologias
 
