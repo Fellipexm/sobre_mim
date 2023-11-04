@@ -1,4 +1,4 @@
-<h1 align="center"> Meu portfólio</h1>
+<h1 align="center"> Sobre Mim</h1>
 
 <p align="center">
 Esta é a página sobre mim, onde coloco minhas características e habilidades.
