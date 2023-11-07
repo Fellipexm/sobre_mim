@@ -15,7 +15,7 @@
 }
 .ligth {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: url(https://cutewallpaper.org/27x/rw0qxpzvq/135644889.jpg);
   --Stroke-color: rgba(0, 0, 0, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: (0, 0, 0, 0.02);
@@ -190,11 +190,11 @@ footer {
 
 @media (min-width: 780px) {
   :root {
-    --bg-url: url(assets/bg-desktop.jpg);
+    --bg-url: url(https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg);
   }
 
   .ligth {
-    --bg-url: url(assets/bg-mobile-light.jpg);
+    --bg-url: url(https://cutewallpaper.org/27x/rw0qxpzvq/135644889.jpg);
   }
 }
 
