@@ -15,7 +15,7 @@
 }
 .ligth {
   --text-color: black;
-  --bg-url: url(https://cutewallpaper.org/27x/rw0qxpzvq/135644889.jpg);
+  --bg-url: url(https://i.pinimg.com/564x/fb/48/3b/fb483bc2d6afcaf0f383d785a5016920.jpg);
   --Stroke-color: rgba(0, 0, 0, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: (0, 0, 0, 0.02);
@@ -24,7 +24,7 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 172vh;
+  height: 180vh;
 }
 
 body * {
@@ -164,27 +164,35 @@ footer {
 }
 
 .MInha {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 17px;
   justify-content: center;
   position: relative;
   top: 36px;
-
 }
 
 .h1 {
-     text-align: center;
+  text-align: center;
   position: relative;
   top: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
 }
 
 #back {
   position: absolute;
   top: 100;
+}
 
+.certificados {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  color: aqua;
+}
+
+#center {
+  text-align: center;
 }
 
 
@@ -194,7 +202,7 @@ footer {
   }
 
   .ligth {
-    --bg-url: url(https://cutewallpaper.org/27x/rw0qxpzvq/135644889.jpg);
+    --bg-url: url(https://wallpaper4k.com.br/wp-content/uploads/2022/10/wallpapers-branco-em-4k-3.jpg);
   }
 }
 
