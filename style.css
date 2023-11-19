@@ -195,7 +195,6 @@ footer {
   text-align: center;
 }
 
-
 @media (min-width: 780px) {
   :root {
     --bg-url: url(https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg);
@@ -208,7 +207,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   body {
-    height: 240vh;
+    height: 190vh;
   }
 }
 
