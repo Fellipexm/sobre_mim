@@ -206,6 +206,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    height: 240vh;
+  }
+}
+
 @keyframes slide-in {
   from {
     left: 180px;
