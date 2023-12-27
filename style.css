@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(https://i.postimg.cc/cJjNdJqR/fundo-mobiule.jpg);
   --Stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: (0, 0, 0, 0.2);
@@ -197,7 +197,7 @@ footer {
 
 @media (min-width: 780px) {
   :root {
-    --bg-url: url(https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg);
+    --bg-url: url(https://i.postimg.cc/cJjNdJqR/fundo-mobiule.jpg);
   }
 
   .ligth {
@@ -207,7 +207,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   body {
-    height: 208vh;
+    height: 199vh;
   }
 }
 
