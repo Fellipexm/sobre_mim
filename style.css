@@ -195,6 +195,17 @@ footer {
   text-align: center;
 }
 
+#curri {
+  cursor: pointer;
+  color: red; 
+  transition: color 0.3s; 
+ text-align: center;
+}
+
+#curri:hover {
+  color: green; 
+}
+
 @media (min-width: 780px) {
   :root {
     --bg-url: url(https://i.postimg.cc/cJjNdJqR/fundo-mobiule.jpg);
