@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(https://i.postimg.cc/cJjNdJqR/fundo-mobiule.jpg);
+  --bg-url: url(https://i.postimg.cc/fRGtHthw/fundo-abstrato-escuro.jpg);
   --Stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: (0, 0, 0, 0.2);
@@ -15,7 +15,7 @@
 }
 .ligth {
   --text-color: black;
-  --bg-url: url(https://i.pinimg.com/564x/fb/48/3b/fb483bc2d6afcaf0f383d785a5016920.jpg);
+  --bg-url: url(https://i.postimg.cc/T1JFsWsB/4907157.jpg);
   --Stroke-color: rgba(0, 0, 0, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: (0, 0, 0, 0.02);
@@ -197,22 +197,22 @@ footer {
 
 #curri {
   cursor: pointer;
-  color: red; 
-  transition: color 0.3s; 
- text-align: center;
+  color: red;
+  transition: color 0.3s;
+  text-align: center;
 }
 
 #curri:hover {
-  color: green; 
+  color: green;
 }
 
 @media (min-width: 780px) {
   :root {
-    --bg-url: url(https://i.postimg.cc/cJjNdJqR/fundo-mobiule.jpg);
+    --bg-url: url(https://i.postimg.cc/fRGtHthw/fundo-abstrato-escuro.jpg);
   }
 
   .ligth {
-    --bg-url: url(https://wallpaper4k.com.br/wp-content/uploads/2022/10/wallpapers-branco-em-4k-3.jpg);
+    --bg-url: url(https://i.postimg.cc/T1JFsWsB/4907157.jpg);
   }
 }
 
