@@ -195,6 +195,10 @@ footer {
   text-align: center;
 }
 
+#center li:hover {
+  color: orange;
+}
+
 #curri {
   cursor: pointer;
   color: red;
