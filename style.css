@@ -200,6 +200,7 @@ footer {
 }
 
 #curri {
+  align-items: center;
   cursor: pointer;
   color: red;
   transition: color 0.3s;
