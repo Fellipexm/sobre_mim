@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(https://i.postimg.cc/fRGtHthw/fundo-abstrato-escuro.jpg);
+  --bg-url: url(assets/Home.png);
   --Stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: (0, 0, 0, 0.2);
@@ -15,7 +15,7 @@
 }
 .ligth {
   --text-color: black;
-  --bg-url: url(https://i.postimg.cc/T1JFsWsB/4907157.jpg);
+  --bg-url: url(assets/branco.png);
   --Stroke-color: rgba(0, 0, 0, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: (0, 0, 0, 0.02);
@@ -213,11 +213,11 @@ footer {
 
 @media (min-width: 780px) {
   :root {
-    --bg-url: url(https://i.postimg.cc/fRGtHthw/fundo-abstrato-escuro.jpg);
+    --bg-url: url(assets/Home.png);
   }
 
   .ligth {
-    --bg-url: url(https://i.postimg.cc/T1JFsWsB/4907157.jpg);
+    --bg-url: url(assets/branco.png);
   }
 }
 
