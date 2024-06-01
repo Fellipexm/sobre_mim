@@ -2,30 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
 :root {
   --text-color: white;
   --bg-url: url(assets/Home.png);
   --Stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
-  --surface-color-hover: (0, 0, 0, 0.2);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assets/moon-stars.svg);
-  --cor-preta: (54, 54, 54);
+  --cor-preta: rgba(54, 54, 54);
 }
+
 .ligth {
   --text-color: black;
   --bg-url: url(assets/branco.png);
   --Stroke-color: rgba(0, 0, 0, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: (0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(assets/sun.svg);
 }
+
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 210vh;
+  min-height: 100vh;
 }
 
 body * {
@@ -120,7 +122,6 @@ h1 a {
   border-radius: 8px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
   text-decoration: none;
   font-weight: 500;
   transition: background 0.3s;
@@ -201,14 +202,10 @@ footer {
 }
 
 #curri {
-  
   cursor: pointer;
   color: red;
   transition: color 0.3s;
-  
 }
-
-
 
 #curri:hover {
   color: green;
@@ -226,26 +223,6 @@ footer {
 
 @media only screen and (max-width: 767px) {
   body {
-    height: 255vh;
-  }
-}
-
-@keyframes slide-in {
-  from {
-    left: 180px;
-  }
-
-  to {
-    left: 242px;
-  }
-}
-
-@keyframes slide-back {
-  from {
-    left: 248px;
-  }
-
-  to {
-    left: 200px;
+    min-height: 100vh;
   }
 }
