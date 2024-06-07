@@ -185,8 +185,6 @@ footer {
   top: 100;
 }
 
-
-
 .certificados {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
@@ -223,11 +221,9 @@ footer {
   }
 }
 
-
-
 @media only screen and (max-width: 767px) {
   body {
-    height: 300vh;
+    height: 350vh;
   }
 }
 
