@@ -230,7 +230,61 @@ footer {
 
 @media only screen and (max-width: 767px) {
   body {
-    height: 345vh;
+    height: auto; /* Ajuste a altura para se adaptar ao conteúdo em dispositivos móveis */
+  }
+
+  #switch button {
+    top: 110px;
+    left: 20px;
+  }
+
+  #switch span {
+    top: 115px;
+    left: calc(75% - 32px); /* Centralize a área do switch */
+  }
+
+  .ligth #switch button {
+    left: calc(10% + 16px); /* Ajuste a posição do botão no modo claro */
+  }
+
+  #profile img {
+    width: 80px; /* Reduza o tamanho da imagem do perfil */
+  }
+
+  #profile p {
+    font-size: 16px; /* Reduza o tamanho do texto do perfil */
+  }
+
+  h1 a {
+    padding: 12px 16px; /* Ajuste o padding do link do título */
+  }
+
+  #social-links {
+    gap: 16px; /* Reduza o gap entre os links sociais */
+    font-size: 20px; /* Reduza o tamanho da fonte dos ícones sociais */
+  }
+
+  #social-links a {
+    padding: 12px; /* Reduza o padding dos links sociais */
+    top: 10px; /* Ajuste a posição dos links sociais */
+  }
+
+  .MInha {
+    font-size: 18px; /* Reduza o tamanho da fonte */
+    top: 24px; /* Ajuste a posição */
+  }
+
+  .h1 {
+    font-size: 20px; /* Reduza o tamanho da fonte */
+    top: 8px; /* Ajuste a posição */
+  }
+
+  .certificados {
+    font-size: 14px; /* Reduza o tamanho da fonte */
+  }
+
+  footer {
+    font-size: 12px; /* Reduza o tamanho da fonte do rodapé */
   }
 }
 
