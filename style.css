@@ -234,12 +234,12 @@ footer {
   }
 
   #switch button {
-    top: 110px;
+    top: 120px;
     left: 20px;
   }
 
   #switch span {
-    top: 115px;
+    top: 122px;
     left: calc(75% - 32px); /* Centralize a área do switch */
   }
 
