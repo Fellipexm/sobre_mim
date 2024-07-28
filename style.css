@@ -105,6 +105,11 @@ body * {
   left: 200px;
 }
 
+.academy {
+  font-size: 19px;
+  cursor: pointer;
+  color: aqua;
+}
 /*link */
 
 ul {
