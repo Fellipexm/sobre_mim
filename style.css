@@ -1,3 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: white;
+  --bg-url: url(assets/Home.png);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.5);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(assets/moon-stars.svg);
+  --cor-preta: rgba(54, 54, 54);
+}
+
+.ligth {
+  --text-color: black;
+  --bg-url: url(assets/branco.png);
+  --stroke-color: rgba(0, 0, 0, 0.05);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(assets/sun.svg);
+}
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+body * {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+#container {
+  width: 100%;
+  max-width: 768px; /* Tamanho ajustado para notebooks */
+  margin: auto;
+  margin-top: 56px;
+  padding: 0 24px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  border-radius: 50%;
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+#profile p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+#switch button {
+  height: 32px;
+  width: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 137px;
+  left: 189px;
+  animation: slide-back 1s forwards;
+}
+
+#switch {
+  position: relative;
+  margin: 4px auto;
+}
+
+.ligth #switch button {
+  animation: slide-in 1s forwards;
+  left: 248px;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
+#switch span {
+  position: absolute;
+  display: flex;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 99999px;
+  top: 140px;
+  left: 200px;
+}
+
+.academy {
+  font-size: 19px;
+  cursor: pointer;
+  color: aqua;
+}
+/*link */
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+h1 a {
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+  background-color: var(--cor-preta);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+ul li a:hover {
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
+  transition: background;
+}
+
+/*Icones */
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px 0;
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+}
+
+#social-links a:hover {
+  background: var(--highlight-color);
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+}
+
+.MInha {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21px;
+  justify-content: center;
+  position: relative;
+  top: 36px;
+}
+
+.h1 {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#back {
+  position: absolute;
+  top: 100;
+}
+
+.certificados {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  color: aqua;
+}
+
+#center {
+  text-align: center;
+}
+
+#center li:hover {
+  color: orange;
+}
+
+#curri {
+  cursor: pointer;
+  color: red;
+  transition: color 0.3s;
+}
+
+#curri:hover {
+  color: green;
+}
+
+@media (min-width: 780px) {
+  :root {
+    --bg-url: url(assets/Home.png);
+  }
+
+  .ligth {
+    --bg-url: url(assets/branco.png);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    height: auto; /* Ajuste a altura para se adaptar ao conteúdo em dispositivos móveis */
+  }
+
+  #switch button {
+    top: 120px;
+    left: 20px;
+  }
+
+  #switch span {
+    top: 122px;
+    left: calc(75% - 32px); /* Centralize a área do switch */
+  }
+
+  .ligth #switch button {
+    left: calc(10% + 16px); /* Ajuste a posição do botão no modo claro */
+  }
+
+  #profile img {
+    width: 80px; /* Reduza o tamanho da imagem do perfil */
+  }
+
+  #profile p {
+    font-size: 16px; /* Reduza o tamanho do texto do perfil */
+  }
+
+  h1 a {
+    padding: 12px 16px; /* Ajuste o padding do link do título */
+  }
+
+  #social-links {
+    gap: 16px; /* Reduza o gap entre os links sociais */
+    font-size: 20px; /* Reduza o tamanho da fonte dos ícones sociais */
+  }
+
+  #social-links a {
+    padding: 12px; /* Reduza o padding dos links sociais */
+    top: 10px; /* Ajuste a posição dos links sociais */
+  }
+
+  .MInha {
+    font-size: 18px; /* Reduza o tamanho da fonte */
+    top: 24px; /* Ajuste a posição */
+  }
+
+  .h1 {
+    font-size: 20px; /* Reduza o tamanho da fonte */
+    top: 8px; /* Ajuste a posição */
+  }
+
+  .certificados {
+    font-size: 14px; /* Reduza o tamanho da fonte */
+  }
+
+  footer {
+    font-size: 12px; /* Reduza o tamanho da fonte do rodapé */
+  }
+}
+
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 767px) {
   body {
@@ -140,3 +430,26 @@
     left: 200px;
   }
 }
+
+
+/* Animações */
+@keyframes slide-in {
+  from {
+    left: 180px;
+  }
+
+  to {
+    left: 242px;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 248px;
+  }
+
+  to {
+    left: 200px;
+  }
+}
+
