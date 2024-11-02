@@ -178,7 +178,7 @@ footer {
 }
 
 .MInha {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 21px;
   justify-content: center;
   position: relative;
@@ -189,7 +189,7 @@ footer {
   text-align: center;
   position: relative;
   top: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: VCourier, monospace;
 }
 
 #back {
@@ -199,7 +199,7 @@ footer {
 
 .certificados {
   text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: fantasy;
   font-size: 15px;
   cursor: pointer;
   color: aqua;
